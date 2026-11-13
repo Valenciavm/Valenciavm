@@ -2,7 +2,7 @@
 
 ![GIF](./concac.gif)
 
-Computer Science student focused on **AI** and **IT infrastructure**. My strongest foundation is **AWS, architecture and deployment**, complemented by machine learning and generative AI.
+### Computer Science student focused on **AI** and **IT infrastructure**. My strongest foundation is **AWS, architecture and deployment**, complemented by machine learning and generative AI.
 ---
 
 ## <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/rocket-takeoff.svg" width="26" height="26" align="center" alt=""> Projects
