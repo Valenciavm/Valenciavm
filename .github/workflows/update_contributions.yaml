@@ -47,11 +47,11 @@ jobs:
           PY
 
       - name: Generate contributions SVG
-        if: steps.schedule.outputs.run == 'true'
+        if: github.event_name == 'workflow_dispatch' || steps.schedule.outputs.run == 'true'
         run: python generate_contributions.py
 
       - name: Commit changes
-        if: steps.schedule.outputs.run == 'true'
+        if: github.event_name == 'workflow_dispatch' || steps.schedule.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
